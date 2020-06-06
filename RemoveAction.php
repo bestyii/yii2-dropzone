@@ -1,13 +1,13 @@
 <?php
 
-namespace devgroup\dropzone;
+namespace bestyii\dropzone;
 
 use Yii;
 use yii\base\Action;
 
 class RemoveAction extends Action
 {
-    public $uploadDir = '@webroot/upload';
+    public $uploadDir = '@uploadPath';
 
     public function run($fileName)
     {
