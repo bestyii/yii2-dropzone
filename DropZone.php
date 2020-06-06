@@ -1,6 +1,6 @@
 <?php
 
-namespace devgroup\dropzone;
+namespace bestyii\dropzone;
 
 use Yii;
 use yii\base\Widget;
