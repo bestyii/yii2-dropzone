@@ -14,13 +14,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist devgroup/yii2-dropzone "*"
+php composer.phar require --prefer-dist bestyii/yii2-dropzone "*"
 ```
 
 or add
 
 ```
-"devgroup/yii2-dropzone": "*"
+"bestyii/yii2-dropzone": "*"
 ```
 
 to the require section of your composer.json.
@@ -30,7 +30,7 @@ General Usage
 -------------
 
 ```php
-use devgroup\dropzone\DropZone;
+use bestyii\dropzone\DropZone;
 
 DropZone::widget(
     [
@@ -46,4 +46,4 @@ DropZone::widget(
 )
 ```
 
-you can also register `devgroup\dropzone\UploadAction` and `devgroup\dropzone\RemoveAction` actions in your controller
+you can also register `bestyii\dropzone\UploadAction` and `bestyii\dropzone\RemoveAction` actions in your controller
